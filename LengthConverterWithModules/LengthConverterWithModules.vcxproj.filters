@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Distance">
+      <UniqueIdentifier>{c2ebe4a6-1324-4593-bbcb-509f96dda2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Distance">
+      <UniqueIdentifier>{9850fbd5-135a-44a2-bf24-f30b81e232ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{0a474b5d-bc90-416e-b1cd-d37193313c3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LengthConverterWithModules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance.cpp">
+      <Filter>Source Files\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="MeterDistance.cpp">
+      <Filter>Source Files\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="FootDistance.cpp">
+      <Filter>Source Files\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="SantimeterDistance.cpp">
+      <Filter>Source Files\Distance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shared.h">
+      <Filter>Header Files\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Header Files\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MeterDistance.h">
+      <Filter>Header Files\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="FootDistance.h">
+      <Filter>Header Files\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="SantimeterDistance.h">
+      <Filter>Header Files\Distance</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
